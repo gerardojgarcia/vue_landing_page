@@ -8,7 +8,7 @@
 
 
     <strong>Find your summit with adventures made to be unforgettable</strong>
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold my-10 py-2 px-4 rounded-full w-52 self-center" >Learn More</button>
+    <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold my-10 py-2 px-4 rounded-full w-52 self-center" >Learn More</button>
 </section>
 
 </template>
