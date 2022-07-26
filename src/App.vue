@@ -7,6 +7,7 @@
     <Hero/>
     <About />
     <Banner/>
+    <Team />
 </div>
 </template>
 
@@ -15,6 +16,7 @@ import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import About from './components/About.vue'
 import Banner from './components/Banner.vue'
+import Team from './components/Team.vue'
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     Header,
     Hero,
     About,
-    Banner
+    Banner,
+    Team
     
 }
 }
