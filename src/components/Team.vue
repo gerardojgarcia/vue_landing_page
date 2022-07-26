@@ -2,12 +2,12 @@
 
 
 
-<div class="team w-full">
+<div class="team w-full flex flex-col justify-center items-center">
 
-<h4 class="text-5xl my-24">Meet the Team</h4>
+<h4 class="text-5xl my-24 text-black">Meet the Team</h4>
 
 
-<div class="team_box flex flex-row w-full justify-evenly"> 
+<div class="team_box flex lg:flex-row md:flex-col sm:flex-col w-full justify-evenly"> 
 
 
 <div class="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-auto mb-6 shadow-lg rounded-xl mt-16">
@@ -15,7 +15,7 @@
         <div class="flex flex-wrap justify-center">
             <div class="w-full flex justify-center">
                 <div class="relative">
-                    <img src="https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/blob/main/build/assets/img/team-2.jpg?raw=true" class="shadow-xl rounded-full align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-[150px]"/>
+                    <img src="https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/blob/main/build/assets/img/team-1.jpg?raw=true" class="shadow-xl rounded-full align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-[150px]"/>
                 </div>
             </div>
             <div class="w-full text-center mt-20">
@@ -37,9 +37,9 @@
             </div>
         </div>
         <div class="text-center mt-2">
-            <h3 class="text-2xl text-slate-700 font-bold leading-normal mb-1">Mike Thompson</h3>
+            <h3 class="text-2xl text-slate-700 font-bold leading-normal mb-1">Jennifer Thompson</h3>
             <div class="text-xs mt-0 mb-2 text-slate-400 font-bold uppercase">
-                <i class="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>Paris, France
+                <i class="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>New York City, New York
             </div>
         </div>
         <div class="mt-6 py-6 border-t border-slate-200 text-center">
@@ -81,9 +81,9 @@
             </div>
         </div>
         <div class="text-center mt-2">
-            <h3 class="text-2xl text-slate-700 font-bold leading-normal mb-1">Mike Thompson</h3>
+            <h3 class="text-2xl text-slate-700 font-bold leading-normal mb-1">Jake Duffy</h3>
             <div class="text-xs mt-0 mb-2 text-slate-400 font-bold uppercase">
-                <i class="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>Paris, France
+                <i class="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>Los Angeles, CA
             </div>
         </div>
         <div class="mt-6 py-6 border-t border-slate-200 text-center">
@@ -103,7 +103,7 @@
         <div class="flex flex-wrap justify-center">
             <div class="w-full flex justify-center">
                 <div class="relative">
-                    <img src="https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/blob/main/build/assets/img/team-2.jpg?raw=true" class="shadow-xl rounded-full align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-[150px]"/>
+                    <img src="https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/blob/main/build/assets/img/team-3.jpg?raw=true" class="shadow-xl rounded-full align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-[150px]"/>
                 </div>
             </div>
             <div class="w-full text-center mt-20">
@@ -125,9 +125,9 @@
             </div>
         </div>
         <div class="text-center mt-2">
-            <h3 class="text-2xl text-slate-700 font-bold leading-normal mb-1">Mike Thompson</h3>
+            <h3 class="text-2xl text-slate-700 font-bold leading-normal mb-1">Lars Henkey</h3>
             <div class="text-xs mt-0 mb-2 text-slate-400 font-bold uppercase">
-                <i class="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>Paris, France
+                <i class="fas fa-map-marker-alt mr-2 text-slate-400 opacity-75"></i>Oslo, Norway
             </div>
         </div>
         <div class="mt-6 py-6 border-t border-slate-200 text-center">
@@ -192,11 +192,21 @@ export default {
    },
    
    props: {
-   task: Array
+   team: Array
    }
 }
 
 
 
 </script>
+<style>
+.team {
 
+height: 100vh;
+
+}
+    
+
+
+
+</style>

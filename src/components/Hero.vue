@@ -4,11 +4,11 @@
 
 
 
-    <h1 class="text-4xl">Check out our company!</h1>
+    <h1 class="text-8xl">Summit Adventure Tours</h1>
 
 
-    <strong>We're the best at what we do!</strong>
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-52 self-center" >Learn More</button>
+    <strong>Find your summit with adventures made to be unforgettable</strong>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold my-10 py-2 px-4 rounded-full w-52 self-center" >Learn More</button>
 </section>
 
 </template>
@@ -31,7 +31,7 @@
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: url(../assets/vue_practice_hero_background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../assets/vue_practice_hero_background.jpg);
     background-repeat: none;
     background-position: center;
     background-size: cover;

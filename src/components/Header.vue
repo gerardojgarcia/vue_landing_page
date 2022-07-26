@@ -5,7 +5,7 @@
         <nav class="flex items-center justify-between flex-wrap bg-black p-6 w-full">
             <div class="flex items-center flex-shrink-0 text-white mr-6">
                 
-                <span class="font-semibold text-xl tracking-tight">ObjetGraphics</span>
+                <span class="font-semibold text-xl tracking-tight">SummitAdventures</span>
             </div>
             <div class="block lg:hidden">
                 <button
