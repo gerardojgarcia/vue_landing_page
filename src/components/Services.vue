@@ -1,7 +1,7 @@
 <template>
 
 
-    <section class="services mb-36">
+    <section class="services mb-36 text-black">
 
         <div class="service_container flex flex-col justify-center items-center ">
 
@@ -25,7 +25,7 @@
                                 Maiores et perferendis eaque, exercitationem praesentium nihil.
                             </p>
                         </div>
-                        <div class="px-6 pt-4 pb-2">
+                        <div class="px-6 pt-4 pb-2 ">
                             <span
                                 class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
                             <span
@@ -33,6 +33,9 @@
                             <span
                                 class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
                         </div>
+                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 border  rounded my-6">
+  Book Now
+</button>
                     </div>
 
                     <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
@@ -52,6 +55,9 @@
                             <span
                                 class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
                         </div>
+                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 border  rounded my-6">
+  Book Now
+</button>
                     </div>
                     <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
                         <img class="w-full" src="../assets/pexels-tyler-lastovich-633198.jpg" alt="Sunset in the mountains">
@@ -70,7 +76,14 @@
                             <span
                                 class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
                         </div>
+
+                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 border  rounded my-6">
+  Book Now
+</button>
                     </div>
+
+
+                    
                 </div>
             
 
