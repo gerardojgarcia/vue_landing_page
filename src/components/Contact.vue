@@ -3,10 +3,10 @@
 
 
 
-    <div class="contact w-full flex justify-center items-center pb-52">
+    <div class="contact w-full flex flex-col lg:flex-row justify-center items-center pb-52">
 
-        <div class="contact_text mx-52">
-            <h5 class="text-5xl  text-black mx-10">Get in touch</h5>
+        <div class="contact_text mx-25 lg:mx-15">
+            <h5 class="text-5xl  text-black mx-10 ">Get in touch</h5>
         </div>
 
         <form class="w-full max-w-sm">

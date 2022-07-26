@@ -5,6 +5,7 @@
   
     <Header/>
     <Hero/>
+    <Services/>
     <About />
     <Banner/>
     <Team />
@@ -21,6 +22,7 @@ import Banner from './components/Banner.vue'
 import Team from './components/Team.vue'
 import Signup from './components/Signup.vue'
 import Contact from './components/Contact.vue'
+import Services from './components/Services.vue'
 
 export default {
   name: 'App',
@@ -31,7 +33,8 @@ export default {
     Banner,
     Team,
     Signup,
-    Contact
+    Contact,
+    Services
 }
 }
 

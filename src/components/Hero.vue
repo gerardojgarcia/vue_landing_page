@@ -1,6 +1,6 @@
 <template>
 
-<section class="hero">
+<section class="hero text-white">
 
 
 

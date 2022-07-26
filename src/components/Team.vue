@@ -7,7 +7,7 @@
 <h4 class="text-5xl my-24 text-black">Meet the Team</h4>
 
 
-<div class="team_box flex lg:flex-row md:flex-col sm:flex-col w-full justify-evenly"> 
+<div class="team_box flex flex-col lg:flex-row  w-full justify-evenly"> 
 
 
 <div class="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-auto mb-6 shadow-lg rounded-xl mt-16">
@@ -202,7 +202,7 @@ export default {
 <style>
 .team {
 
-height: 100vh;
+height: auto;
 
 }
     
